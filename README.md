@@ -14,6 +14,15 @@ The app should incorporate the following key design elements:
 
 - **Favorites**: Provide users with the ability save favorite recipes.
 
+![](recipe_home_screen_example.png)
+
+![](filter_screen_example.png)
+
+![](recipe_details_screen_example.png)
+
+![](favourites_screen_example.png)
+
+
 ## Project Phases
 1. **Project Setup and UI Design (Days 1-2)**
     - Download and install [Android Studio](https://developer.android.com/studio)
@@ -51,8 +60,14 @@ The project is expected to be completed within 5-6 business days.
 For recipe data retrieval, utilize the [Spoonacular API](https://spoonacular.com/food-api/docs). Refer to the API's official documentation to understand the available data and endpoints.
 To make the most of the API, ensure that the app's design incorporates the relevant recipe attributes and characteristics.
 
+Utilize [Random recipes](https://spoonacular.com/food-api/docs#Get-Random-Recipes) to retrieve the initial recipes for home screen.
+To implement filtering and search you can use the provided [Complex search](https://spoonacular.com/food-api/docs#Search-Recipes-Complex).
+
+Feel free to use any of the functionality available in this API to further expand and modify the app. As using [Get similar recipes](https://spoonacular.com/food-api/docs#Get-Similar-Recipes), to provide similar recipes on details screen.
+
+
 ## Example of API Call:
-![Example API Call](example_api_call.png)
+![](example_api_call.png)
 
 ## Example of JSON Response:
 ```json
